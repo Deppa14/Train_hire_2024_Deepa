@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2c3e50, #fd746c); /* Updated gradient for a modern look */
+  margin: 0;
+  padding: 0;
+  font-size: 16px; /* Base font size for the body */
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.page-header {
+  margin-bottom: 30px;
+  color: #ffffff; /* White for better contrast */
+  text-align: center;
+  font-size: 32px; /* Increased font size for page header */
+}
+
+header, footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #3498db; /* Bright blue for header and footer */
+  color: #ffffff;
+  border-radius: 8px 8px 0 0;
+  font-size: 20px; /* Increased font size for header and footer */
+}
+
+footer {
+  border-radius: 0 0 8px 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  font-size: 18px; /* Increased font size for table cells */
+}
+
+th {
+  background-color: #3498db; /* Bright blue for table headers */
+  color: #ffffff;
+}
+
+button, a.button {
+  background-color: #e74c3c; /* Vibrant red for buttons */
+  color: #ffffff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 18px; /* Increased font size for buttons */
+}
+
+button:hover, a.button:hover {
+  background-color: #c0392b; /* Darker red for hover state */
+}
+
+.edit-button {
+  background-color: #2ecc71; /* Bright green for edit button */
+}
+
+.delete-button {
+  background-color: #e74c3c; /* Red for delete button */
+}
+
+.edit-button:hover {
+  background-color: #27ae60; /* Darker green for edit button hover */
+}
+
+.delete-button:hover {
+  background-color: #c0392b; /* Darker red for delete button hover */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #3498db; /* Bright blue for form labels */
+  font-size: 20px; /* Increased font size for form labels */
+}
+
+form input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px; /* Increased font size for form inputs */
+}
+
+form button {
+  align-self: flex-start;
+  font-size: 18px; /* Increased font size for form button */
+}
